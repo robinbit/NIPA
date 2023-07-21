@@ -9,6 +9,11 @@
         .clear {
             clear: both;
         }
+        h1 {
+            font-size : 20px;
+            color : #00ff00;
+            text-align:center;
+        }
         header {
             width: 800px;
             height: 60px;
@@ -26,7 +31,7 @@
             height: 150px;
             margin-bottom: 50px;
             margin: 2px;
-            border: solid 2px #0000ff;
+            
         }
         main {
             width: 618px;
@@ -47,25 +52,46 @@
             margin: 2px;
             border: solid 2px #ff0000;
         }
+        table, th, tr, td {
+            border: solid 1px black;
+            border-collapse: collapse;
+            padding: 8px;
+            
+        }
     </style>
 </head>
 <body>
     <header>
-        Header
+    <h1>My closet</h1>
+    
+        
     </header>
     <aside>
-        left
         <nav>
-            menu
+            <h5>내 옷장 상태 </h5>
+            <table>
+                <tr>
+                    <th>업데이트</th>
+                    <th>옷장 의류 갯수</th>
+                </tr>
+                <tr>
+                    <th>376</th>
+                    <th>1,208</th>
+                </tr>
+            </table>
+            <form>
+            아이디: <input type="text"><br>
+            비밀번호: <input type="text">
+        </form>
         </nav>
     </aside>
     <main>
-        main content
+        
         <section>
-            content1
+            <img src="image_1.PNG" width="300" height="150">
         </section>
         <section>
-            content2
+            <img src="ima_2.PNG" width="300" height="150">
         </section>
         
     </main>
